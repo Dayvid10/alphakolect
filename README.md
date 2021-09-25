@@ -1,2 +1,3 @@
-# sims
-School System for record holding
+# ALPHAKOLECT
+REACT PROJECT
+The development of a new alphakolect
