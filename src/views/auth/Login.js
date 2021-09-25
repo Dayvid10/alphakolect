@@ -78,7 +78,7 @@ export default function Login() {
                   </div>
                   
                   <div>
-                   <small>Download the </small><a style={{color:'yellow',fontSize:'12px'}} href="">User guide</a><small>before login </small>
+                   <small>Download the </small><a style={{color:'yellow',fontSize:'12px'}} href="https://alphakolect.com">User guide</a><small>before login </small>
                   </div>
 
                   
