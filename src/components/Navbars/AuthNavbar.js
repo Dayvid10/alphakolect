@@ -1,6 +1,8 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
+//logo
+import Logo from "../../assets/img/alphalogo.png"
 
 // components
 
@@ -17,8 +19,10 @@ export default function Navbar(props) {
               className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
               to="/"
             >
-              Notus React
+            Alphakolect
+             {/* <img src={Logo} style={{width:'3%',height:'3%'}} alt="Logo"/> */}
             </Link>
+            
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -41,7 +45,7 @@ export default function Navbar(props) {
                   href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-auth-navbar"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "}
-                  Docs
+                  User guide
                 </a>
               </li>
             </ul>
